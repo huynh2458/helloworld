@@ -1,0 +1,26 @@
+{
+    "name": "angel/module-helloworld",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        },
+        {
+            "email": "nguyenduyhuynh002@gmail.com",
+            "name": "Hu\u1ef3nh Nguy\u1ec5n Duy"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Angel\\HelloWorld\\": ""
+        }
+    }
+}
